@@ -20,6 +20,16 @@ function ug_social_user_default_permissions() {
     'module' => 'aggregator',
   );
 
+  // Exported permission: 'access print'.
+  $permissions['access print'] = array(
+    'name' => 'access print',
+    'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'print',
+  );
+
   // Exported permission: 'administer news feeds'.
   $permissions['administer news feeds'] = array(
     'name' => 'administer news feeds',
