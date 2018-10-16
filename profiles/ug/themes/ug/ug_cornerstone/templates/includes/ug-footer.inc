@@ -12,3 +12,6 @@
     </footer>
   </div>
 </div>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.3/ozplayer-core/ozplayer.free.js"></script>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.3/ozplayer-lang/en.js"></script>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.3/config.js"></script>
