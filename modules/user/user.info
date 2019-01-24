@@ -8,8 +8,11 @@ files[] = user.test
 required = TRUE
 configure = admin/config/people
 stylesheets[all][] = user.css
+<<<<<<< HEAD
 
 ; Information added by Drupal.org packaging script on 2019-01-16
 version = "7.63"
 project = "drupal"
 datestamp = "1547681965"
+=======
+>>>>>>> pantheon-drops-7/master

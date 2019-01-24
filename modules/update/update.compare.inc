@@ -176,6 +176,10 @@ function _update_process_info_list(&$projects, $list, $project_type, $status) {
     // section at the top of the report.
     if ($project_name == 'drupal') {
       $project_display_type = 'core';
+<<<<<<< HEAD
+=======
+      $file->info['version'] = VERSION;
+>>>>>>> pantheon-drops-7/master
     }
     else {
       $project_display_type = $project_type;

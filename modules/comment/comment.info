@@ -8,8 +8,11 @@ files[] = comment.module
 files[] = comment.test
 configure = admin/content/comment
 stylesheets[all][] = comment.css
+<<<<<<< HEAD
 
 ; Information added by Drupal.org packaging script on 2019-01-16
 version = "7.63"
 project = "drupal"
 datestamp = "1547681965"
+=======
+>>>>>>> pantheon-drops-7/master

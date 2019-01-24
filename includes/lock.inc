@@ -214,7 +214,11 @@ function lock_wait($name, $delay = 30) {
   // $delay is passed in seconds, but we will be using usleep(), which takes
   // microseconds as a parameter. Multiply it by 1 million so that all
   // further numbers are equivalent.
+<<<<<<< HEAD
   $delay = (int) $delay * 1000000;
+=======
+  $delay = (int) ($delay * 1000000);
+>>>>>>> pantheon-drops-7/master
 
   // Begin sleeping at 25ms.
   $sleep = 25000;
